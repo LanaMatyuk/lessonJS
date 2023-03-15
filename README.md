@@ -1,1 +1,1 @@
-# lessonJS
+# lessonsJS
