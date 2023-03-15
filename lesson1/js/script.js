@@ -32,16 +32,16 @@ console.log(greetings + name);
 let time = '';
 time = 34;
 console.log('Старт поездки. Осталось минут: ' + time);
-time = 34 - 15;
+time = time - 15;
 console.log('Немного сторис в соцсетях. Осталось минут: ' + time);
-time = 34 - 15 - 10;
+time = time - 10;
 console.log('Немного не новостей, но событий. Осталось минут: ' + time);
 time = 0;
 console.log('Осталось минут: ' + time + '. Вы приехали. Добро пожаловать в Москву!');
 
 //8
-let fahrenheit = 451;
-celsius = (fahrenheit - 32) / 1.8;
+const fahrenheit = 451;
+let celsius = (fahrenheit - 32) / 1.8;
 console.log(fahrenheit + ' градуса по Фаренгейту — это ' + celsius + ' градуса по Цельсию.');
 //или
 console.log(`${fahrenheit} градуса по Фаренгейту — это ${celsius} градуса по Цельсию.`);
