@@ -19,22 +19,18 @@ console.log(arrOne);
 let index = 0;
 
 function changeImageNext() {
-    console.log("changeImageNext start index:", index);
     if (index < arrOne.length - 1) {
         index = ++index;
     }
-    console.log("changeImageNext end index:", index);
     imageElement.src = arrOne[index];
 }
 changeImageNext();
 
 
 function changeImageBack() {
-    console.log("changeImageNext start index:", index);
     if (index !== 0) {
         index = --index;
     }
-    console.log("changeImageNext end index:", index);
     imageElement.src = arrOne[index];
 }
 changeImageBack();
